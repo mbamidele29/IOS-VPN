@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F8BD48D2BD41142007D6B74 /* VPN_DesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD48C2BD41142007D6B74 /* VPN_DesignApp.swift */; };
+		4F8BD48F2BD41142007D6B74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD48E2BD41142007D6B74 /* ContentView.swift */; };
+		4F8BD4912BD41144007D6B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BD4902BD41144007D6B74 /* Assets.xcassets */; };
+		4F8BD4952BD41144007D6B74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BD4942BD41144007D6B74 /* Preview Assets.xcassets */; };
+		4F8BD49D2BD412B7007D6B74 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD49C2BD412B7007D6B74 /* Assets.swift */; };
+		4F8BD49F2BD414E4007D6B74 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD49E2BD414E4007D6B74 /* Colors.swift */; };
+		4F8BD4A22BD41DB5007D6B74 /* UsageStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD4A12BD41DB5007D6B74 /* UsageStatView.swift */; };
+		4F8BD4A42BD421F3007D6B74 /* DottedLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD4A32BD421F3007D6B74 /* DottedLineView.swift */; };
+		4F8BD4A62BD4231E007D6B74 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD4A52BD4231E007D6B74 /* CountryView.swift */; };
+		4F8BD4A82BD4248B007D6B74 /* SignalStrengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD4A72BD4248B007D6B74 /* SignalStrengthView.swift */; };
+		4F8BD4AB2BD4284A007D6B74 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD4AA2BD4284A007D6B74 /* CountryModel.swift */; };
+		4F8BD4AF2BD4311C007D6B74 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD4AE2BD4311C007D6B74 /* CountryViewModel.swift */; };
+		4F8BD4B12BD4369D007D6B74 /* PowerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD4B02BD4369D007D6B74 /* PowerButtonView.swift */; };
+		4F8BD4B42BD43715007D6B74 /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD4B32BD43715007D6B74 /* CardModifier.swift */; };
+		4F8BD4B62BD4377A007D6B74 /* CountriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD4B52BD4377A007D6B74 /* CountriesView.swift */; };
+		4F8BD4B82BD43858007D6B74 /* BackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD4B72BD43858007D6B74 /* BackgroundModifier.swift */; };
+		4F8BD4BA2BD4590C007D6B74 /* IconButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD4B92BD4590C007D6B74 /* IconButtonView.swift */; };
+		4F8BD4BC2BD45C8D007D6B74 /* CountriesGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BD4BB2BD45C8D007D6B74 /* CountriesGroupView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F8BD4892BD41142007D6B74 /* VPN-Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VPN-Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8BD48C2BD41142007D6B74 /* VPN_DesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPN_DesignApp.swift; sourceTree = "<group>"; };
+		4F8BD48E2BD41142007D6B74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F8BD4902BD41144007D6B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F8BD4922BD41144007D6B74 /* VPN_Design.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VPN_Design.entitlements; sourceTree = "<group>"; };
+		4F8BD4942BD41144007D6B74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F8BD49C2BD412B7007D6B74 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		4F8BD49E2BD414E4007D6B74 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4F8BD4A12BD41DB5007D6B74 /* UsageStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageStatView.swift; sourceTree = "<group>"; };
+		4F8BD4A32BD421F3007D6B74 /* DottedLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedLineView.swift; sourceTree = "<group>"; };
+		4F8BD4A52BD4231E007D6B74 /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		4F8BD4A72BD4248B007D6B74 /* SignalStrengthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalStrengthView.swift; sourceTree = "<group>"; };
+		4F8BD4AA2BD4284A007D6B74 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		4F8BD4AE2BD4311C007D6B74 /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		4F8BD4B02BD4369D007D6B74 /* PowerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerButtonView.swift; sourceTree = "<group>"; };
+		4F8BD4B32BD43715007D6B74 /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
+		4F8BD4B52BD4377A007D6B74 /* CountriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesView.swift; sourceTree = "<group>"; };
+		4F8BD4B72BD43858007D6B74 /* BackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundModifier.swift; sourceTree = "<group>"; };
+		4F8BD4B92BD4590C007D6B74 /* IconButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButtonView.swift; sourceTree = "<group>"; };
+		4F8BD4BB2BD45C8D007D6B74 /* CountriesGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesGroupView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F8BD4862BD41142007D6B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F8BD4802BD41142007D6B74 = {
+			isa = PBXGroup;
+			children = (
+				4F8BD48B2BD41142007D6B74 /* VPN-Design */,
+				4F8BD48A2BD41142007D6B74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F8BD48A2BD41142007D6B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BD4892BD41142007D6B74 /* VPN-Design.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F8BD48B2BD41142007D6B74 /* VPN-Design */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BD4B22BD43700007D6B74 /* Modifiers */,
+				4F8BD4AD2BD43107007D6B74 /* ViewModels */,
+				4F8BD4AC2BD43102007D6B74 /* Views */,
+				4F8BD4A92BD4283C007D6B74 /* Models */,
+				4F8BD4A02BD41DA2007D6B74 /* Components */,
+				4F8BD49B2BD41295007D6B74 /* Utils */,
+				4F8BD48C2BD41142007D6B74 /* VPN_DesignApp.swift */,
+				4F8BD4902BD41144007D6B74 /* Assets.xcassets */,
+				4F8BD4922BD41144007D6B74 /* VPN_Design.entitlements */,
+				4F8BD4932BD41144007D6B74 /* Preview Content */,
+			);
+			path = "VPN-Design";
+			sourceTree = "<group>";
+		};
+		4F8BD4932BD41144007D6B74 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BD4942BD41144007D6B74 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F8BD49B2BD41295007D6B74 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BD49C2BD412B7007D6B74 /* Assets.swift */,
+				4F8BD49E2BD414E4007D6B74 /* Colors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4F8BD4A02BD41DA2007D6B74 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BD4A12BD41DB5007D6B74 /* UsageStatView.swift */,
+				4F8BD4A32BD421F3007D6B74 /* DottedLineView.swift */,
+				4F8BD4A52BD4231E007D6B74 /* CountryView.swift */,
+				4F8BD4A72BD4248B007D6B74 /* SignalStrengthView.swift */,
+				4F8BD4B02BD4369D007D6B74 /* PowerButtonView.swift */,
+				4F8BD4B92BD4590C007D6B74 /* IconButtonView.swift */,
+				4F8BD4BB2BD45C8D007D6B74 /* CountriesGroupView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4F8BD4A92BD4283C007D6B74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BD4AA2BD4284A007D6B74 /* CountryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F8BD4AC2BD43102007D6B74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BD48E2BD41142007D6B74 /* ContentView.swift */,
+				4F8BD4B52BD4377A007D6B74 /* CountriesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F8BD4AD2BD43107007D6B74 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BD4AE2BD4311C007D6B74 /* CountryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4F8BD4B22BD43700007D6B74 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BD4B32BD43715007D6B74 /* CardModifier.swift */,
+				4F8BD4B72BD43858007D6B74 /* BackgroundModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F8BD4882BD41142007D6B74 /* VPN-Design */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8BD4982BD41144007D6B74 /* Build configuration list for PBXNativeTarget "VPN-Design" */;
+			buildPhases = (
+				4F8BD4852BD41142007D6B74 /* Sources */,
+				4F8BD4862BD41142007D6B74 /* Frameworks */,
+				4F8BD4872BD41142007D6B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VPN-Design";
+			productName = "VPN-Design";
+			productReference = 4F8BD4892BD41142007D6B74 /* VPN-Design.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F8BD4812BD41142007D6B74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4F8BD4882BD41142007D6B74 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 4F8BD4842BD41142007D6B74 /* Build configuration list for PBXProject "VPN-Design" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F8BD4802BD41142007D6B74;
+			productRefGroup = 4F8BD48A2BD41142007D6B74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F8BD4882BD41142007D6B74 /* VPN-Design */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F8BD4872BD41142007D6B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8BD4952BD41144007D6B74 /* Preview Assets.xcassets in Resources */,
+				4F8BD4912BD41144007D6B74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F8BD4852BD41142007D6B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8BD4A42BD421F3007D6B74 /* DottedLineView.swift in Sources */,
+				4F8BD48F2BD41142007D6B74 /* ContentView.swift in Sources */,
+				4F8BD4AB2BD4284A007D6B74 /* CountryModel.swift in Sources */,
+				4F8BD49F2BD414E4007D6B74 /* Colors.swift in Sources */,
+				4F8BD4A82BD4248B007D6B74 /* SignalStrengthView.swift in Sources */,
+				4F8BD4BA2BD4590C007D6B74 /* IconButtonView.swift in Sources */,
+				4F8BD4B12BD4369D007D6B74 /* PowerButtonView.swift in Sources */,
+				4F8BD4BC2BD45C8D007D6B74 /* CountriesGroupView.swift in Sources */,
+				4F8BD4B82BD43858007D6B74 /* BackgroundModifier.swift in Sources */,
+				4F8BD48D2BD41142007D6B74 /* VPN_DesignApp.swift in Sources */,
+				4F8BD4B62BD4377A007D6B74 /* CountriesView.swift in Sources */,
+				4F8BD4A22BD41DB5007D6B74 /* UsageStatView.swift in Sources */,
+				4F8BD4A62BD4231E007D6B74 /* CountryView.swift in Sources */,
+				4F8BD49D2BD412B7007D6B74 /* Assets.swift in Sources */,
+				4F8BD4B42BD43715007D6B74 /* CardModifier.swift in Sources */,
+				4F8BD4AF2BD4311C007D6B74 /* CountryViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F8BD4962BD41144007D6B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F8BD4972BD41144007D6B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4F8BD4992BD41144007D6B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "VPN-Design/VPN_Design.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VPN-Design/Preview Content\"";
+				DEVELOPMENT_TEAM = Z8X342L388;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.VPN-Design";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F8BD49A2BD41144007D6B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "VPN-Design/VPN_Design.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VPN-Design/Preview Content\"";
+				DEVELOPMENT_TEAM = Z8X342L388;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.VPN-Design";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8BD4842BD41142007D6B74 /* Build configuration list for PBXProject "VPN-Design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8BD4962BD41144007D6B74 /* Debug */,
+				4F8BD4972BD41144007D6B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8BD4982BD41144007D6B74 /* Build configuration list for PBXNativeTarget "VPN-Design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8BD4992BD41144007D6B74 /* Debug */,
+				4F8BD49A2BD41144007D6B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F8BD4812BD41142007D6B74 /* Project object */;
+}
